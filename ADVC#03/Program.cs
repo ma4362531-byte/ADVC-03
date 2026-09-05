@@ -1,4 +1,14 @@
-﻿namespace ADVC_03
+﻿using System.Collections;
+using System.Data;
+using System.Reflection;
+using System.Runtime.ConstrainedExecution;
+using System.Text;
+using System.Timers;
+using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace ADVC_03
 {
     internal class Program
     {
@@ -150,6 +160,41 @@
             //HashSet<int> subSet = new HashSet<int> { 1, 2 };
             //bool isSubset = subSet.IsSubsetOf(setA);
             //Console.WriteLine($"Is {{1, 2}} a subset of Set A? {isSubset}");
+
+
+            #endregion
+
+            #region Search
+
+            //Generic Collection - Span<T>
+
+            //Span<T> is a high - performance, stack - only type(ref struct) introduced in .NET to represent a contiguous region of arbitrary memory.It provides type-safe and memory-safe
+            //access to elements in arrays, unmanaged memory, or stack-allocated memory without creating extra memory allocations on the Managed Heap.Because it prevents unnecessary data 
+            //copying(such as string slicing or sub-array creation), it drastically reduces Garbage Collection(GC) overhead and improves throughput in low-latency backend applications.Its
+            //main limitation is that it cannot be used across asynchronous await boundaries or stored as a field in standard classes due to its stack-bound nature.
+
+
+            //SortedList<T>
+
+            //SortedList<TKey, TValue> is a generic collection that maintains key/ value pairs sorted automatically
+            //    by key based on an IComparer implementation. Internally, it is implemented using two parallel arrays:
+            //one for keys and one for values.It features $O(\log n)$ lookup time using Binary Search on the sorted keys
+            //    array and allows fast $O(1)$ index - based access.However, inserting or removing elements requires shifting 
+            //    items in the internal arrays, making those operations relatively slow at $O(n)$. It is best suited for small 
+            //to medium - sized datasets where lookups and reads are frequent, but additions and deletions are rare.
+
+
+
+            //SortedDictionary<>
+
+
+
+            //SortedDictionary<TKey, TValue> is a generic collection that stores key/ value pairs sorted by key, backed 
+            //    internally by a self-balancing binary search tree(a Red - Black Tree).Because of its tree - based structure, 
+            //    search, insertion, and deletion operations all run in predictable logarithmic time $O(\log n)$. Compared to SortedList, 
+            //    it offers significantly faster insertions and deletions for large datasets, though it incurs slightly higher memory overhead 
+            //    per entry due to tree node pointers and lacks fast index - based element access.It is the ideal choice when dealing with dynamic
+            //    datasets that undergo frequent insertions, updates, and removals while requiring continuous sorting.
 
 
             #endregion
