@@ -121,7 +121,38 @@
 
             #endregion
 
+            #region Q4
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+
+            //Console.WriteLine($"Stored Emails Count: {emails.Count}");
+            //Console.WriteLine("Explanation: The count is 2 because StringComparer.OrdinalIgnoreCase forces the HashSet to ignore character casing when evaluating uniqueness. Therefore, 'AHMED@test.com' and 'Sara@Test.Com' were treated as duplicate entries and ignored.\n");
+
+            //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+
+            //HashSet<int> union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine($"UnionWith (Set A U Set B) : {{ {string.Join(", ", union)} }}");
+
+            //HashSet<int> intersect = new HashSet<int>(setA);
+            //intersect.IntersectWith(setB);
+            //Console.WriteLine($"IntersectWith (Set A ∩ Set B) : {{ {string.Join(", ", intersect)} }}");
+
+            //HashSet<int> except = new HashSet<int>(setA);
+            //except.ExceptWith(setB);
+            //Console.WriteLine($"ExceptWith (Set A - Set B) : {{ {string.Join(", ", except)} }}\n");
+
+            //HashSet<int> subSet = new HashSet<int> { 1, 2 };
+            //bool isSubset = subSet.IsSubsetOf(setA);
+            //Console.WriteLine($"Is {{1, 2}} a subset of Set A? {isSubset}");
+
+
+            #endregion
 
 
         }
