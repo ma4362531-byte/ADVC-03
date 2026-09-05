@@ -84,8 +84,42 @@
 
             #endregion
 
+            #region Q3
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>()
+            //{
+            //    { "Omar", "01011111111" },
+            //    { "Khaled", "01122222222" },
+            //    { "Nour", "01233333333" },
+            //    { "Mariam", "01544444444" }
+            //};
+
+            //phoneBook["Youssef"] = "01055555555"; 
+            //phoneBook["Omar"] = "01099999999";    
+
+            //try
+            //{
+            //    phoneBook.Add("Omar", "01000000000");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine($"[Exception caught on .Add()]: {ex.Message}\n");
+            //}
+
+            //bool isAdded = phoneBook.TryAdd("Omar", "01000000000");
+            //Console.WriteLine($"Did .TryAdd() duplicate succeed? {isAdded}\n");
+
+            //bool contactExists = phoneBook.ContainsKey("Hassan");
+            //Console.WriteLine($"Does contact 'Hassan' exist? {contactExists}\n");
+
+            //string searchedContact = phoneBook.GetValueOrDefault("Hassan", "Not Found");
+            //Console.WriteLine($"Get 'Hassan' with fallback: {searchedContact}\n");
+
+            //Console.WriteLine($"Keys  : {string.Join(", ", phoneBook.Keys)}");
+            //Console.WriteLine($"Values: {string.Join(", ", phoneBook.Values)}");
 
 
+
+            #endregion
 
 
 
