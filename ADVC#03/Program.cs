@@ -42,7 +42,47 @@
 
             #endregion
 
+            #region Q2
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>()
+            //{
+            //    { 500, "Ahmed" },
+            //    { 200, "Sara" },
+            //    { 800, "Ali" },
+            //    { 350, "Mona" }
+            //};
 
+            //Console.WriteLine("Leaderboard Entries (Automatically sorted by score):");
+            //foreach (KeyValuePair<int, string> entry in leaderboard)
+            //{
+            //    Console.WriteLine($" Score: {entry.Key} -> Player: {entry.Value}");
+            //}
+            //Console.WriteLine();
+
+            //KeyValuePair<int, string> firstEntry = leaderboard.First();
+            //Console.WriteLine($"First Key: {firstEntry.Key}");
+            //Console.WriteLine($"First Value: {firstEntry.Value}\n");
+
+            //bool hasScore500 = leaderboard.ContainsKey(500);
+            //Console.WriteLine($"Check if score 500 exists: {hasScore500}\n");
+
+            //if (leaderboard.TryGetValue(999, out string player999))
+            //{
+            //    Console.WriteLine($"Player with score 999: {player999}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Safely checked score 999: Player Not Found (No Exception thrown).\n");
+            //}
+
+            //leaderboard.Remove(200);
+            //Console.WriteLine("Updated Leaderboard after removing score 200:");
+            //foreach (var entry in leaderboard)
+            //{
+            //    Console.WriteLine($" Score: {entry.Key} -> Player: {entry.Value}");
+            //}
+
+
+            #endregion
 
 
 
